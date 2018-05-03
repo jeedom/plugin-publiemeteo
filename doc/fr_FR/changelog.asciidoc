@@ -1,0 +1,11 @@
+WARNING: Detail complet des mises à jour sur https://github.com/guenneguezt/plugin-publiemeteo/commits/master[Historique Commit]
+
+Liste des évolutions majeures de la version courante :
+
+- Suppression du lien Paypal pour être conforme avec Jeedom V3.1
+
+Anciennes évolutions :
+
+- Modification pour compatibilité Jeedom V3
+- Plus de suivi de version
+- Initialisation du plugin.

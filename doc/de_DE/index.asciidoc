@@ -1,0 +1,33 @@
+== Publie Météo
+
+=== Beschreibung
+Das Plugin "Publie Météo" erlaubt es, anderen Standorten die Wetterberichtinformationen Ihres Heimsystemes zur Verfügung zu stellen.
+Der Website entsprechend, in die die Daten integriert werden sollen, werden einige Informationen nicht enthalten sein.
+
+Es ist kompatibel mit :
+
+- link:http://www.wunderground.com[]
+
+- link:http://www.awekas.at[]
+
+- link:http://ma.station-meteo.com[]
+
+Hier sind Daten von meiner Wetterstation :
+
+- auf www.station-meteo.com : 
+link:http://www.station-meteo.com/fr76760-saint-martin-aux-arbres/[]
+
+- auf www.wunderground.com
+link:https://www.wunderground.com/personal-weather-station/dashboard?ID=IHAUTENO61[]
+
+- auf www.awekas.at
+link:http://www.awekas.at/fr/instrument.php?id=13215[]
+
+=== Konfiguration
+include::configuration.asciidoc[]
+
+=== FAQ
+include::faq.asciidoc[]
+
+=== Änderungsprotokoll
+include::changelog.asciidoc[]

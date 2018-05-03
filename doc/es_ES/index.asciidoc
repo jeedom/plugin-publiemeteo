@@ -1,0 +1,33 @@
+== Publie Météo
+
+=== Description
+Le plugin Publie Météo permet de mettre à disposition d'autres sites les informations météo de votre domotique.
+En fonction du site dans lequel les données seront intégrées, certaines informations ne seront pas présentées.
+
+Il est compatible avec :
+
+- link:http://www.wunderground.com[]
+
+- link:http://www.awekas.at[]
+
+- link:http://ma.station-meteo.com[]
+
+Voici les données publiées par ma station météo :
+
+- Sur www.station-meteo.com : 
+link:http://www.station-meteo.com/fr76760-saint-martin-aux-arbres/[]
+
+- Sur www.wunderground.com
+link:https://www.wunderground.com/personal-weather-station/dashboard?ID=IHAUTENO61[]
+
+- Sur www.awekas.at
+link:http://www.awekas.at/fr/instrument.php?id=13215[]
+
+=== Configuration
+include::configuration.asciidoc[]
+
+=== FAQ
+include::faq.asciidoc[]
+
+=== Changelog
+include::changelog.asciidoc[]

@@ -1,0 +1,37 @@
+﻿Pour le configurer c’est très simple il suffit de selectionne les commandes contenant les indicateurs.
+
+image::../images/publiemeteo_screenshot2.jpg[]
+
+Sinon les Url pour les sites externe sont dans la page du plugin :
+
+image::../images/publiemeteo_screenshot1.jpg[]
+
+Il faudra donc se créer une station météo chez l'un des sites suportés.
+
+- Chez www.wunderground.com, c'est dans Jeedom que l'on paramètre le compte et c'est lui qui envoye la météo régulièrement.
+
+- Pour www.station-meteo.com et www.awekas.at, il faut mettre l'url que l'on trouve dans la page de configuration du plugin pour qu'ils viennent régulièrement scanner vos données.
+
+=== Comment créer une station chez Awekia ===
+
+Il faut aller link:http://www.awekas.at/fr/benutzer.php?mode=new[ici]. Il faut renseigner tous les champs dont les suivants :
+
+- Dans mode de transfert, choisir WSWIN (awekas.txt)
+
+- Chemin du fichier de données, mettre l'URL que l'on trouve sur la page de paramétrage du plugin.
+
+=== Comment créer une station chez Wunderground ===
+
+Il faut aller link:https://www.wunderground.com/personal-weather-station/mypws[ici]. Une fois le compte créé, il faut créer une station.
+
+C'est dans le menu de profile "My Weather Stations" => "Add a New PWS"
+
+Il faudra ensuite renseigner le Station ID et le mot de passe dans la page de paramétrage du plugin.
+
+=== Comment créer une station chez station-meteo ===
+
+Il faut aller link:http://ma.station-meteo.com/register/[ici]. Une fois connecter remplir le formulaire d'inscription. Ensuite dans le menu données, il faut paramétrer comme suit :
+
+- Url d'import, mettre l'URL que l'on trouve sur la page de paramétrage du plugin.
+
+- Type d'import, choisir awekas.txt
