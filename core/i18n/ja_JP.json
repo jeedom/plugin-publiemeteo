@@ -1,12 +1,12 @@
 {
     "plugins\/publiemeteo\/plugin_info\/configuration.php": {
-        "Clef API": "Ключ API",
+        "Clef API": "APIキー",
         "Reset": "",
         "Etes-vous sûr de vouloir forcer la génération d\\'une nouvelle clef API ?": "",
         "Mise a jour de clef API OK": ""
     },
     "plugins\/publiemeteo\/desktop\/php\/publiemeteo.php": {
-        "401 - Accès non autorisé": "401 - Несанкционированный доступ",
+        "401 - Accès non autorisé": "401-不正アクセス",
         "Indicateur": "",
         "Commande associé": ""
     },
@@ -22,8 +22,8 @@
         "Format non supporté": ""
     },
     "plugins\/publiemeteo\/core\/ajax\/publiemeteo.ajax.php": {
-        "401 - Accès non autorisé": "401 - Несанкционированный доступ",
-        "Aucune methode correspondante à : ": "Aucune methode correspondante à : "
+        "401 - Accès non autorisé": "401-不正アクセス",
+        "Aucune methode correspondante à : ": "以下に対応するメソッドはありません："
     },
     "plugins\/publiemeteo\/core\/class\/publiemeteo.class.php": {
         "Impossible d\\'envoyer les données au serveur wunderground.com.": ""
