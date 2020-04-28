@@ -1,4 +1,4 @@
-<img align="right" src="plugin_info/publiemeteo_icon_icon.png" width="150">
+<img align="right" src="plugin_info/publiemeteo_icon.png" width="150">
 
 # plugin-publiemeteo
 
