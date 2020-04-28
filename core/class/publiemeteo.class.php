@@ -124,9 +124,22 @@ class publiemeteo extends eqLogic {
 				  "pluie" => "Pluviométrie du jour en mm",
 				  "pluieheure" => "Pluviométrie de l'heure en mm",
 				  "vent" => "Vitesse du vent en km/h",
-				  "dirvent" => "Direction du vent (en degrés)",
+				  "dirvent" => "Direction du vent en °C",
 				  "rafalevent" => "Rafales de vent en km/h",
 				  "pointrosee" => "point de rosée en °C"
+				  );
+	}
+    public static function getIndicateurUnitList() {
+		return array
+				  ("tempU" => "°C",
+				  "pressionU" => "hPa",
+				  "humiditeU" => "%",
+				  "pluieU" => "mm",
+				  "pluieheureU" => "mm",
+				  "ventU" => "km/h",
+				  "dirventU" => "°C",
+				  "rafaleventU" => "km/h",
+				  "pointroseeU" => "°C"
 				  );
 	}
     /*     * *********************Methode d'instance************************* */
