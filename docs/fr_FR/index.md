@@ -17,45 +17,48 @@ Il est compatible avec :
 
 # Configuration
 
-Pour le configurer c’est très simple il suffit de selectionne les commandes contenant les indicateurs.
+Pour le configurer, il suffit de sélectionner les commandes contenant les indicateurs.
 
 ![exemple vue d'ensemble](../images/publiemeteo_screenshot2.png)
 
-Sinon les Url pour les sites externe sont dans la page du plugin :
+Sinon les URL pour les sites externes sont dans la page du plugin :
 
 ![exemple vue d'ensemble](../images/publiemeteo_screenshot1.png)
 
 
-Il faudra donc se créer une station météo chez l'un des sites suportés.
+Il faudra donc se créer une station météo chez l'un des sites supportés.
 
->- Chez www.wunderground.com, c'est dans Jeedom que l'on paramètre le compte et c'est lui qui envoye la météo régulièrement.
-
->- Pour www.station-meteo.com et www.awekas.at, il faut mettre l'url que l'on trouve dans la page de configuration du plugin pour qu'ils viennent régulièrement scanner vos données.
+>- <a href="http://www.wunderground.com">www.wunderground.com</a>
+>- <a href="http://ma.station-meteo.com">ma.station-meteo.com</a>
+>- <a href="http://www.awekas.at">www.awekas.at</a>
 
 ## Comment créer une station chez Awekia
 Il faut aller <a href="http://www.awekas.at/fr/benutzer.php?mode=new">http://www.awekas.at/fr/benutzer.php?mode=new</a>
 
 >- Dans mode de transfert, choisir WSWIN (awekas.txt)
->- Chemin du fichier de données, mettre l'URL que l'on trouve sur la page de paramétrage du plugin.
+>- Chemin du fichier de données, mettre l'URL qui se trouve sur la page de paramétrage du plugin.
+>- Les données seront automatiquement récupèrer régulièrement par le site
 
 ## Comment créer une station chez Wunderground
 Il faut aller <a href="https://www.wunderground.com/personal-weather-station/mypw">https://www.wunderground.com/personal-weather-station/mypw</a>
 
 >- C'est dans le menu de profile "My Weather Stations" => "Add a New PWS"
 >- Il faudra ensuite renseigner le Station ID et le mot de passe dans la page de paramétrage du plugin.
+>- Les données seront envoyer régulièrement par Jeedom
 
 ## Comment créer une station chez station-meteo
 Il faut aller <a href="http://ma.station-meteo.com/register/">http://ma.station-meteo.com/register/</a>
 Une fois connecter remplir le formulaire d'inscription. Ensuite dans le menu données, il faut paramétrer comme suit :
 
->- Url d'import, mettre l'URL que l'on trouve sur la page de paramétrage du plugin.
+>- URL d'import, mettre l'URL qui se trouve sur la page de paramétrage du plugin.
 >- Type d'import, choisir awekas.txt
+>- Les données seront automatiquement récupérer régulièrement par le site
 
 # FAQ
 
 - A quelle fréquence les données sont-elles mise à jour ?
->Les données sont mises à jour en permanence. Celà dépend donc de la fréquence de mise à jour du site.
+>Les données sont mises à jour en permanence. Cela dépend donc de la fréquence de mise à jour du site.
 >Pour wunderground.com elles sont envoyées toutes les 15 minutes.
 
-- Ce plugin ne génère pas de log, comment en avoir ?
+- Ce plugin ne génère pas de log, comment peut-on en avoir ?
 >Il est nécessaire au préalable d'activer temporairement le debug de Jeedom (menu Configuration => Configuration des logs & messages => Activer + Niveau de log = Debug).
