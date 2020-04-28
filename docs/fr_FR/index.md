@@ -19,7 +19,7 @@ Il est compatible avec :
 
 Pour le configurer c’est très simple il suffit de selectionne les commandes contenant les indicateurs.
 
-![exemple vue d'ensemble](../images/publiemeteo_screenshot2.jpg)
+![exemple vue d'ensemble](../images/publiemeteo_screenshot2.png)
 
 Sinon les Url pour les sites externe sont dans la page du plugin :
 
