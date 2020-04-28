@@ -124,11 +124,12 @@ class publiemeteo extends eqLogic {
 				  "pluie" => "Pluviométrie du jour en mm",
 				  "pluieheure" => "Pluviométrie de l'heure en mm",
 				  "vent" => "Vitesse du vent en km/h",
-				  "dirvent" => "Direction du vent (en degrés)",
+				  "dirvent" => "Direction du vent en °C",
 				  "rafalevent" => "Rafales de vent en km/h",
 				  "pointrosee" => "point de rosée en °C"
 				  );
 	}
+
     /*     * *********************Methode d'instance************************* */
 }
 
