@@ -8,5 +8,7 @@
     "hasDependency": false,
     "hasOwnDeamon": false,
     "maxDependancyInstallTime": 0,
-    "compatibility": ["miniplus", "smart", "rpi", "docker", "diy", "v4"]
+    "compatibility": ["miniplus", "smart", "rpi", "docker", "diy", "v4"],
+    "changelog": "https://jeedom.github.io/third_plugin/publiemeteo/#language#/changelog",
+    "documentation": "https://jeedom.github.io/third_plugin/publiemeteo/#language#/"
 }
