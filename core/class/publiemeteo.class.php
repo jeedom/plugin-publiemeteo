@@ -129,19 +129,7 @@ class publiemeteo extends eqLogic {
 				  "pointrosee" => "point de rosée en °C"
 				  );
 	}
-    public static function getIndicateurUnitList() {
-		return array
-				  ("tempU" => "°C",
-				  "pressionU" => "hPa",
-				  "humiditeU" => "%",
-				  "pluieU" => "mm",
-				  "pluieheureU" => "mm",
-				  "ventU" => "km/h",
-				  "dirventU" => "°C",
-				  "rafaleventU" => "km/h",
-				  "pointroseeU" => "°C"
-				  );
-	}
+
     /*     * *********************Methode d'instance************************* */
 }
 
