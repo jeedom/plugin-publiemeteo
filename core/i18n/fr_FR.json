@@ -1,25 +1,31 @@
 {
-    "plugins\/publiemeteo\/plugin_info\/info.xml": {
-        "Plugin pour mettre a disposition les informations météo pour d'autres sites": "Plugin pour mettre a disposition les informations météo pour d'autres sites",
-        "Aucune": "Aucune"
-    },
-    "plugins\/publiemeteo\/core\/php\/publiemeteo.php": {
-        "Quelqu'un demande la meteo format ": "Quelqu'un demande la meteo format "
-    },
     "plugins\/publiemeteo\/plugin_info\/configuration.php": {
         "Clef API": "Clef API",
         "Reset": "Reset",
         "Etes-vous sûr de vouloir forcer la génération d\\'une nouvelle clef API ?": "Etes-vous sûr de vouloir forcer la génération d\\'une nouvelle clef API ?",
         "Mise a jour de clef API OK": "Mise a jour de clef API OK"
     },
-    "plugins\/publiemeteo\/core\/class\/publiemeteo.class.php": {
-        "Impossible d'envoyer les données au serveur wunderground.com.": "Impossible d'envoyer les données au serveur wunderground.com."
-    },
     "plugins\/publiemeteo\/desktop\/php\/publiemeteo.php": {
+        "401 - Accès non autorisé": "401 - Accès non autorisé",
         "Indicateur": "Indicateur",
         "Commande associé": "Commande associé"
     },
     "plugins\/publiemeteo\/desktop\/js\/publiemeteo.js": {
         "Sauvegarde réalisée avec succès": "Sauvegarde réalisée avec succès"
+    },
+    "plugins\/publiemeteo\/core\/php\/publiemeteo.php": {
+        "Clef API non valide, vous n\\'etes pas autorisé à effectuer cette action": "Clef API non valide, vous n\\'etes pas autorisé à effectuer cette action",
+        "Quelqu\\'un demande la meteo format ": "Quelqu\\'un demande la meteo format ",
+        "Donnée ": "Donnée ",
+        "Donnée trop vieille pour ": "Donnée trop vieille pour ",
+        "Aucune commande définie pour ": "Aucune commande définie pour ",
+        "Format non supporté": "Format non supporté"
+    },
+    "plugins\/publiemeteo\/core\/ajax\/publiemeteo.ajax.php": {
+        "401 - Accès non autorisé": "401 - Accès non autorisé",
+        "Aucune methode correspondante à : ": "Aucune methode correspondante à : "
+    },
+    "plugins\/publiemeteo\/core\/class\/publiemeteo.class.php": {
+        "Impossible d\\'envoyer les données au serveur wunderground.com.": "Impossible d\\'envoyer les données au serveur wunderground.com."
     }
 }

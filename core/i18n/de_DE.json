@@ -1,0 +1,31 @@
+{
+    "plugins\/publiemeteo\/plugin_info\/configuration.php": {
+        "Clef API": "API-Schlüssel",
+        "Reset": "Zurücksetzen",
+        "Etes-vous sûr de vouloir forcer la génération d\\'une nouvelle clef API ?": "",
+        "Mise a jour de clef API OK": ""
+    },
+    "plugins\/publiemeteo\/desktop\/php\/publiemeteo.php": {
+        "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",
+        "Indicateur": "",
+        "Commande associé": ""
+    },
+    "plugins\/publiemeteo\/desktop\/js\/publiemeteo.js": {
+        "Sauvegarde réalisée avec succès": ""
+    },
+    "plugins\/publiemeteo\/core\/php\/publiemeteo.php": {
+        "Clef API non valide, vous n\\'etes pas autorisé à effectuer cette action": "",
+        "Quelqu\\'un demande la meteo format ": "",
+        "Donnée ": "",
+        "Donnée trop vieille pour ": "",
+        "Aucune commande définie pour ": "",
+        "Format non supporté": ""
+    },
+    "plugins\/publiemeteo\/core\/ajax\/publiemeteo.ajax.php": {
+        "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",
+        "Aucune methode correspondante à : ": "Keine Methode entsprechend:"
+    },
+    "plugins\/publiemeteo\/core\/class\/publiemeteo.class.php": {
+        "Impossible d\\'envoyer les données au serveur wunderground.com.": ""
+    }
+}
