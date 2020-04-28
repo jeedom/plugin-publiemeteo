@@ -19,7 +19,7 @@ require_once dirname(__FILE__) . "/../../../../core/php/core.inc.php";
 
 if ( init('api') != config::byKey('api', 'publiemeteo') ) {
 	connection::failed();
-	echo __('{{Clef API non valide, vous n\'etes pas autorisé à effectuer cette action', __FILE__);
+	echo __('{{Clef API non valide, vous n\'etes pas autorisé à effectuer cette action}}', __FILE__);
 	log::add('publiemeteo','error',__('Clef API non valide, vous n\'etes pas autorisé à effectuer cette action', __FILE__));
 	die();
 }
