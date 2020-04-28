@@ -21,7 +21,7 @@ try {
     include_file('core', 'authentification', 'php');
 
     if (!isConnect('admin')) {
-        throw new Exception(__('401 - Accès non autorisé', __FILE__));
+        throw new Exception(__('401 - {{Accès non autorisé}}', __FILE__));
     }
 
     if (init('action') == 'ResetKey') {
@@ -31,14 +31,15 @@ try {
 
 	if (init('action') == 'savepubliemeteo') {
 		foreach (json_decode(init('config')) as $key => $indicateur) {
-			if ( $indicateur != "" )
+			if ($indicateur != "")
 				config::save($key, $indicateur, 'publiemeteo');
 			else
 				config::remove($key, 'publiemeteo');
 		}
 		ajax::success();
 	}
-    throw new Exception(__('Aucune methode correspondante à : ', __FILE__) . init('action'));
+    throw new Exception(__('{{Aucune méthode correspondante à}} : ', __FILE__) . init('action'));
+
     /*     * *********Catch exeption*************** */
 } catch (Exception $e) {
     ajax::error(displayExeption($e), $e->getCode());
