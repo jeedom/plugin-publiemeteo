@@ -1,39 +1,48 @@
 {
     "plugins\/publiemeteo\/plugin_info\/configuration.php": {
-        "Lien des données Météo pour des sites tiers": "",
-        "Choisir format": "",
+        "Lien des données Météo pour des sites tiers": "Link de dados meteorológicos para sites de terceiros",
+        "Choisir format": "Escolha o formato",
         "Clef API": "Chave de API",
-        "Reset": "",
-        "Il sera nécessaire de reconfigurer les URLs sur les sites Internet.": "",
-        "Etes-vous sûr de vouloir forcer la génération d\\'une nouvelle clef API ?": "",
-        "Mise a jour de clef API OK": ""
+        "Il sera nécessaire de reconfigurer les URLs sur les sites Internet.": "Será necessário reconfigurar os URLs nos sites.",
+        "Etes-vous sûr de vouloir forcer la génération d\\'une nouvelle clef API ?": "Tem certeza de que deseja forçar a geração de uma nova chave de API?",
+        "Mise a jour de clef API OK": "Atualização da chave da API OK",
+        " Reset": " Reset",
+        "Reset ": "Reset ",
+        "[Reset": "[Reset",
+        "Reset]": "Reset]"
     },
     "plugins\/publiemeteo\/desktop\/php\/publiemeteo.php": {
         "401 - Accès non autorisé": "401 - Acesso não autorizado",
-        "Sauvegarder": "Salvar",
-        "Indicateurs Météos": "",
-        "Indicateur": "",
-        "Commande associé": ""
+        "Indicateurs Météos": "Indicadores meteorológicos",
+        "Commande associé": "Comando associado",
+        " Sauvegarder": " Salvar",
+        "Sauvegarder ": "Salvar ",
+        "[Sauvegarder": "[Salvar",
+        "Sauvegarder]": "Salvar]",
+        " Indicateur": " Indicador",
+        "Indicateur ": "Indicador ",
+        "[Indicateur": "[Indicador",
+        "Indicateur]": "Indicador]"
     },
     "plugins\/publiemeteo\/desktop\/js\/publiemeteo.js": {
-        "Sauvegarde réalisée avec succès": ""
+        "Sauvegarde réalisée avec succès": "Backup concluído com sucesso"
     },
     "plugins\/publiemeteo\/core\/php\/publiemeteo.php": {
-        "{{Clef API non valide, vous n\\'etes pas autorisé à effectuer cette action": "",
-        "Clef API non valide, vous n\\'etes pas autorisé à effectuer cette action": "",
-        "Quelqu\\'un demande la meteo format ": "",
-        "Donnée ": "",
-        "Donnée trop vieille pour ": "",
-        "Aucune commande définie pour ": "",
-        "Format non supporté": ""
+        "{{Clef API non valide, vous n\\'etes pas autorisé à effectuer cette action": "{{Chave da API inválida, você não está autorizado a executar esta ação",
+        "Clef API non valide, vous n\\'etes pas autorisé à effectuer cette action": "Chave da API inválida, você não está autorizado a executar esta ação",
+        "Quelqu\\'un demande la meteo format ": "Alguém solicita o formato do tempo",
+        "Donnée ": "Dados",
+        "Donnée trop vieille pour ": "Dados muito antigos para",
+        "Aucune commande définie pour ": "Nenhum comando definido para",
+        "Format non supporté": "Formato não suportado"
     },
     "plugins\/publiemeteo\/core\/ajax\/publiemeteo.ajax.php": {
-        "401 - {{Accès non autorisé}}": "",
-        "{{Aucune méthode correspondante à}} : ": "",
-        "Accès non autorisé": "",
-        "Aucune méthode correspondante à": ""
+        "401 - {{Accès non autorisé}}": "401 - {{Acesso não autorizado}}",
+        "{{Aucune méthode correspondante à}} : ": "{{Nenhum método correspondente a}}:",
+        "Accès non autorisé": "Acesso não autorizado",
+        "Aucune méthode correspondante à": "Nenhum método correspondente a"
     },
     "plugins\/publiemeteo\/core\/class\/publiemeteo.class.php": {
-        "Impossible d\\'envoyer les données au serveur wunderground.com.": ""
+        "Impossible d\\'envoyer les données au serveur wunderground.com.": "Não foi possível enviar dados para o servidor wunderground.com."
     }
 }
