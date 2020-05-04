@@ -3,26 +3,17 @@
         "Lien des données Météo pour des sites tiers": "",
         "Choisir format": "",
         "Clef API": "API anahtar",
+        "Reset": "",
         "Il sera nécessaire de reconfigurer les URLs sur les sites Internet.": "",
         "Etes-vous sûr de vouloir forcer la génération d\\'une nouvelle clef API ?": "",
-        "Mise a jour de clef API OK": "",
-        " Reset": " ",
-        "Reset ": " ",
-        "[Reset": "[",
-        "Reset]": "]"
+        "Mise a jour de clef API OK": ""
     },
     "plugins\/publiemeteo\/desktop\/php\/publiemeteo.php": {
         "401 - Accès non autorisé": "401 - Yetkisiz erişim",
+        "Sauvegarder": "Kaydet",
         "Indicateurs Météos": "",
-        "Commande associé": "",
-        " Sauvegarder": " Kaydet",
-        "Sauvegarder ": "Kaydet ",
-        "[Sauvegarder": "[Kaydet",
-        "Sauvegarder]": "Kaydet]",
-        " Indicateur": " ",
-        "Indicateur ": " ",
-        "[Indicateur": "[",
-        "Indicateur]": "]"
+        "Indicateur": "",
+        "Commande associé": ""
     },
     "plugins\/publiemeteo\/desktop\/js\/publiemeteo.js": {
         "Sauvegarde réalisée avec succès": ""

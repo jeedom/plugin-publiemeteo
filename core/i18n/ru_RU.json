@@ -3,26 +3,17 @@
         "Lien des données Météo pour des sites tiers": "",
         "Choisir format": "",
         "Clef API": "Ключ API",
+        "Reset": "",
         "Il sera nécessaire de reconfigurer les URLs sur les sites Internet.": "",
         "Etes-vous sûr de vouloir forcer la génération d\\'une nouvelle clef API ?": "",
-        "Mise a jour de clef API OK": "",
-        " Reset": " ",
-        "Reset ": " ",
-        "[Reset": "[",
-        "Reset]": "]"
+        "Mise a jour de clef API OK": ""
     },
     "plugins\/publiemeteo\/desktop\/php\/publiemeteo.php": {
         "401 - Accès non autorisé": "401 - Несанкционированный доступ",
+        "Sauvegarder": "Сохранить",
         "Indicateurs Météos": "",
-        "Commande associé": "",
-        " Sauvegarder": " Сохранить",
-        "Sauvegarder ": "Сохранить ",
-        "[Sauvegarder": "[Сохранить",
-        "Sauvegarder]": "Сохранить]",
-        " Indicateur": " ",
-        "Indicateur ": " ",
-        "[Indicateur": "[",
-        "Indicateur]": "]"
+        "Indicateur": "",
+        "Commande associé": ""
     },
     "plugins\/publiemeteo\/desktop\/js\/publiemeteo.js": {
         "Sauvegarde réalisée avec succès": ""

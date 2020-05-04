@@ -3,26 +3,17 @@
         "Lien des données Météo pour des sites tiers": "Wetterdatenlink für Websites Dritter",
         "Choisir format": "Wählen Sie das Format",
         "Clef API": "API-Schlüssel",
+        "Reset": "Zurücksetzen",
         "Il sera nécessaire de reconfigurer les URLs sur les sites Internet.": "Die URLs auf den Websites müssen neu konfiguriert werden.",
         "Etes-vous sûr de vouloir forcer la génération d\\'une nouvelle clef API ?": "Möchten Sie die Generierung eines neuen API-Schlüssels erzwingen?",
-        "Mise a jour de clef API OK": "API-Schlüsselaktualisierung OK",
-        " Reset": " Zurücksetzen",
-        "Reset ": "Zurücksetzen ",
-        "[Reset": "[Zurücksetzen",
-        "Reset]": "Zurücksetzen]"
+        "Mise a jour de clef API OK": "API-Schlüsselaktualisierung OK"
     },
     "plugins\/publiemeteo\/desktop\/php\/publiemeteo.php": {
         "401 - Accès non autorisé": "401 - Nicht autorisierter Zugriff",
+        "Sauvegarder": "Speichern",
         "Indicateurs Météos": "Meteorologische Indikatoren",
-        "Commande associé": "Zugehöriger Befehl",
-        " Sauvegarder": " Speichern",
-        "Sauvegarder ": "Speichern ",
-        "[Sauvegarder": "[Speichern",
-        "Sauvegarder]": "Speichern]",
-        " Indicateur": " Anzeige",
-        "Indicateur ": "Anzeige ",
-        "[Indicateur": "[Anzeige",
-        "Indicateur]": "Anzeige]"
+        "Indicateur": "Anzeige",
+        "Commande associé": "Zugehöriger Befehl"
     },
     "plugins\/publiemeteo\/desktop\/js\/publiemeteo.js": {
         "Sauvegarde réalisée avec succès": "Sicherung erfolgreich abgeschlossen"

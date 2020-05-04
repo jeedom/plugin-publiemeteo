@@ -3,26 +3,17 @@
         "Lien des données Météo pour des sites tiers": "Enlace de datos meteorológicos para sitios de terceros",
         "Choisir format": "Elige formato",
         "Clef API": "Clave API",
+        "Reset": "Restablecer",
         "Il sera nécessaire de reconfigurer les URLs sur les sites Internet.": "Será necesario volver a configurar las URL en los sitios web.",
         "Etes-vous sûr de vouloir forcer la génération d\\'une nouvelle clef API ?": "¿Estás seguro de que quieres forzar la generación de una nueva clave API?",
-        "Mise a jour de clef API OK": "Actualización clave de API OK",
-        " Reset": " Restablecer",
-        "Reset ": "Restablecer ",
-        "[Reset": "[Restablecer",
-        "Reset]": "Restablecer]"
+        "Mise a jour de clef API OK": "Actualización clave de API OK"
     },
     "plugins\/publiemeteo\/desktop\/php\/publiemeteo.php": {
         "401 - Accès non autorisé": "401 - Acceso no autorizado",
+        "Sauvegarder": "Guardar",
         "Indicateurs Météos": "Indicadores meteorologicos",
-        "Commande associé": "Comando asociado",
-        " Sauvegarder": " Guardar",
-        "Sauvegarder ": "Guardar ",
-        "[Sauvegarder": "[Guardar",
-        "Sauvegarder]": "Guardar]",
-        " Indicateur": " Indicador",
-        "Indicateur ": "Indicador ",
-        "[Indicateur": "[Indicador",
-        "Indicateur]": "Indicador]"
+        "Indicateur": "Indicador",
+        "Commande associé": "Comando asociado"
     },
     "plugins\/publiemeteo\/desktop\/js\/publiemeteo.js": {
         "Sauvegarde réalisée avec succès": "Copia de seguridad completada con éxito"
