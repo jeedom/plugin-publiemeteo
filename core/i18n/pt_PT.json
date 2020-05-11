@@ -4,7 +4,7 @@
         "Choisir format": "Escolha o formato",
         "Clef API": "Chave de API",
         "Reset": "Reset",
-        "Il sera nécessaire de reconfigurer les URLs sur les sites Internet.": "Será necessário reconfigurar os URLs nos sites.",
+        "Il sera nécessaire de reconfigurer les URLs sur les sites Internet.": "Será necessário reconfigurar os URLs nos sites",
         "Etes-vous sûr de vouloir forcer la génération d\\'une nouvelle clef API ?": "Tem certeza de que deseja forçar a geração de uma nova chave de API?",
         "Mise a jour de clef API OK": "Atualização da chave da API OK"
     },
@@ -34,6 +34,6 @@
         "Aucune méthode correspondante à": "Nenhum método correspondente a"
     },
     "plugins\/publiemeteo\/core\/class\/publiemeteo.class.php": {
-        "Impossible d\\'envoyer les données au serveur wunderground.com.": "Não foi possível enviar dados para o servidor wunderground.com."
+        "Impossible d\\'envoyer les données au serveur wunderground.com.": "Não foi possível enviar dados para o servidor wunderground.com"
     }
 }
