@@ -1,6 +1,7 @@
 {
     "changelog.md": {
         "Plugin Publie Meteo": "Plugin de publicación del tiempo",
+        "Changelog Publie Meteo": "El registro de cambios publica el clima",
         "fr_FR": "fr_FR",
         "Version 20200428": "Versión 20200428",
         "Migration vers font-awesome 5": "Migración a font-awesome 5",
