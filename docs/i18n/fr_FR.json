@@ -36,7 +36,7 @@
         "Il faudra donc se créer une station météo chez l'un des sites supportés": "Il faudra donc se créer une station météo chez l'un des sites supportés",
         "Comment créer une station chez Awekia": "Comment créer une station chez Awekia",
         "mode=new<\/a": "mode=new<\/a",
-        "Dans mode de transfert, choisir WSWIN (awekas.txt)": "Dans mode de transfert, choisir WSWIN (awekas.txt)",
+        "Dans mode de transfert, choisir WSWIN (awekas.txt": "Dans mode de transfert, choisir WSWIN (awekas.txt",
         "Chemin du fichier de données, mettre l'URL qui se trouve sur la page de paramétrage du plugin": "Chemin du fichier de données, mettre l'URL qui se trouve sur la page de paramétrage du plugin",
         "Les données seront automatiquement récupèrer régulièrement par le site": "Les données seront automatiquement récupèrer régulièrement par le site",
         "Comment créer une station chez Wunderground": "Comment créer une station chez Wunderground",
@@ -56,6 +56,6 @@
         "Pour wunderground": "Pour wunderground",
         "com elles sont envoyées toutes les 15 minutes": "com elles sont envoyées toutes les 15 minutes",
         "Ce plugin ne génère pas de log, comment peut-on en avoir": "Ce plugin ne génère pas de log, comment peut-on en avoir",
-        "Il est nécessaire au préalable d'activer temporairement le debug de Jeedom (menu Configuration => Configuration des logs & messages => Activer + Niveau de log = Debug)": "Il est nécessaire au préalable d'activer temporairement le debug de Jeedom (menu Configuration => Configuration des logs & messages => Activer + Niveau de log = Debug)"
+        "Il est nécessaire au préalable d'activer temporairement le debug de Jeedom (menu Configuration => Configuration des logs & messages => Activer + Niveau de log = Debug": "Il est nécessaire au préalable d'activer temporairement le debug de Jeedom (menu Configuration => Configuration des logs & messages => Activer + Niveau de log = Debug"
     }
 }
