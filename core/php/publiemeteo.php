@@ -17,53 +17,47 @@
  */
 require_once dirname(__FILE__) . "/../../../../core/php/core.inc.php";
 
-if ( init('api') != config::byKey('api', 'publiemeteo') ) {
+if (init('api') != config::byKey('api', 'publiemeteo')) {
 	connection::failed();
 	echo __('{{Clef API non valide, vous n\'etes pas autorisé à effectuer cette action}}', __FILE__);
-	log::add('publiemeteo','error',__('Clef API non valide, vous n\'etes pas autorisé à effectuer cette action', __FILE__));
+	log::add('publiemeteo', 'error', __('Clef API non valide, vous n\'etes pas autorisé à effectuer cette action', __FILE__));
 	die();
 }
-log::add('publiemeteo','debug',__('Quelqu\'un demande la meteo format ', __FILE__).init('format'));
+log::add('publiemeteo', 'debug', __('Quelqu\'un demande la meteo format ', __FILE__) . init('format'));
 switch (init('format')) {
 	case "awekas.at":
 		header('Content-type: application/txt');
 		print("\n");
 		foreach (array("temp", "humidite", "pression", "pluie", "vent", "dirvent") as $indice) {
 			$cmd_id = config::byKey($indice, 'publiemeteo');
-			if ( $cmd_id != "" ) {
+			if ($cmd_id != "") {
 				$cmd = cmd::byId($cmd_id);
-				if ( is_object($cmd) ) {
+				if (is_object($cmd)) {
 					$cmd->execCmd();
-					if ( time() - strtotime($cmd->getCollectDate()) < 3600 )
-					{
-						if ( $indice == "pluie" ) {
-							print(strtr($cmd->getStatistique(mktime(0,0,0), time())["avg"], ',', '.'));
+					if (time() - strtotime($cmd->getCollectDate()) < 3600) {
+						if ($indice == "pluie") {
+							print(strtr($cmd->getStatistique(mktime(0, 0, 0), time())["avg"], ',', '.'));
 						} else {
-							log::add('publiemeteo','debug',__('Donnée ', __FILE__).$indice.' : '.$cmd->execCmd());
+							log::add('publiemeteo', 'debug', __('Donnée ', __FILE__) . $indice . ' : ' . $cmd->execCmd());
 							print(strtr($cmd->execCmd(), ',', '.'));
 						}
-					}
-					else
-					{
-						log::add('publiemeteo','debug',__('Donnée trop vieille pour ', __FILE__).$indice.' : '.$cmd->getCollectDate());
+					} else {
+						log::add('publiemeteo', 'debug', __('Donnée trop vieille pour ', __FILE__) . $indice . ' : ' . $cmd->getCollectDate());
 					}
 				}
-			}
-			else
-			{
-				log::add('publiemeteo','debug',__('Aucune commande définie pour ', __FILE__).$indice);
+			} else {
+				log::add('publiemeteo', 'debug', __('Aucune commande définie pour ', __FILE__) . $indice);
 			}
 			print("\n");
 		}
-		print(date("H:i")."\n");
-		print(date("d.m.Y")."\n");
+		print(date("H:i") . "\n");
+		print(date("d.m.Y") . "\n");
 		$cmd_id = config::byKey("pression", 'publiemeteo');
-		if ( $cmd_id != "" ) {
+		if ($cmd_id != "") {
 			$cmd = cmd::byId($cmd_id);
-			if ( is_object($cmd) ) {
+			if (is_object($cmd)) {
 				$cmd->execCmd();
-				if ( time() - strtotime($cmd->getCollectDate()) < 300 )
-				{
+				if (time() - strtotime($cmd->getCollectDate()) < 300) {
 					# print(strtr($cmd_id->getValue() - $cmd_id->getValue(time() - 6 * 3600), ',', '.'));
 				}
 			}
@@ -72,8 +66,7 @@ switch (init('format')) {
 		break;
 	default:
 		echo __('Format non supporté', __FILE__);
-		log::add('publiemeteo','error',__('Format non supporté', __FILE__).' : '.init('format'));
+		log::add('publiemeteo', 'error', __('Format non supporté', __FILE__) . ' : ' . init('format'));
 		die();
 		break;
 }
-?>

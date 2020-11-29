@@ -15,12 +15,19 @@
  * along with Jeedom. If not, see <http://www.gnu.org/licenses/>.
  */
 
-$('.listEquipement').on('click', function () {
-    var el = $(this);
-    jeedom.cmd.getSelectModal({}, function(result) {
-		$('#cmdSupportId_' + el.data('input')).val(result.cmd.id);
-		$('#cmdSupportHumanName_' + el.data('input')).val(result.human);
-    });
+/*
+* Permet la réorganisation des commandes dans l'équipement
+*/
+$("#table_cmd").sortable({axis: "y", cursor: "move", items: ".cmd", placeholder: "ui-state-highlight", tolerance: "intersect", forcePlaceholderSize: true});
+
+/*
+* Fonction Spécifique Plugin
+*/
+$('#div_pageContainer').off('click','.listCmdActionOther').on('click','.listCmdActionOther', function () {
+	var el = $(this);
+	jeedom.cmd.getSelectModal({cmd: {type: 'info',subType : 'numeric'}}, function (result) {
+	  el.closest('.input-group').find('input').value(result.human);
+	});
 });
 
 $('.delEquipement').on('click', function () {
@@ -56,4 +63,3 @@ $('.bt_savepubliemeteo').on('click',function(){
         }
     });
 });
-

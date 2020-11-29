@@ -64,6 +64,7 @@ if (!isConnect()) {
 </form>
 <div id='div_ResetKeyResult' style="display: none;"></div>
 <script>
+	$('#div_confPlugin > .panel.panel-primary').hide()
 	$('#bt_resetkey').on('click', function() {
 		bootbox.confirm('{{Etes-vous sûr de vouloir forcer la génération d\'une nouvelle clef API ?}}', function(result) {
 			if (result) {
