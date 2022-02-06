@@ -19,10 +19,14 @@
 require_once dirname(__FILE__) . '/../../../core/php/core.inc.php';
 
 function publiemeteo_install() {
-	config::save('api', publiemeteo::generatePassword(), 'publiemeteo');
+	jeedom::getApiKey('publiemeteo');
+
+	//config::save('api', publiemeteo::generatePassword(), 'publiemeteo');
 }
 
 function publiemeteo_update() {
+	jeedom::getApiKey('publiemeteo');
+
 	$cron = cron::byClassAndFunction('publiemeteo', 'push');
 	if ( is_object($cron)) {
 		$cron->stop();
@@ -36,11 +40,10 @@ function publiemeteo_remove() {
 		$cron->stop();
 		$cron->remove();
 	}
- 	config::remove('api', 'publiemeteo');
+
  	config::remove('wunderground_id', 'publiemeteo');
  	config::remove('wunderground_password', 'publiemeteo');
 	foreach (publiemeteo::getIndicateurList() as $indice => $description) {
 		config::remove($indice, 'publiemeteo');
 	}
 }
-?>

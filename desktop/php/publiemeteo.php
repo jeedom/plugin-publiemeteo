@@ -8,6 +8,18 @@ sendVarToJS('eqType', $plugin->getId());
 $eqLogics = eqLogic::byType($plugin->getId());
 ?>
 
+<div class="row row-overflow">
+    <!-- Page d'accueil du plugin -->
+    <div class="col-xs-12 eqLogicThumbnailDisplay">
+        <legend><i class="fas fa-cog"></i> {{Gestion}}</legend>
+        <div class="eqLogicThumbnailContainer">
+            <div class="cursor eqLogicAction logoSecondary" data-action="gotoPluginConf">
+                <i class="fas fa-wrench"></i><br>
+                <span>{{Configuration}}</span>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Page de présentation de l'équipement -->
 <div class="col-xs-12 eqLogic">
     <!-- barre de gestion de l'équipement -->
@@ -22,11 +34,13 @@ $eqLogics = eqLogic::byType($plugin->getId());
         <li role="presentation"><a href="#commandtab" aria-controls="profile" role="tab" data-toggle="tab"><i class="fas fa-list-alt"></i> {{Indicateurs Météos}}</a></li>
     </ul>
     <div class="form-group">
-        <table class="table table-bordered table-condensed" id="cmdList">
+        <table class="tab-pane" id="cmdList">
             <thead>
                 <tr>
-                    <th>{{Indicateur}}</th>
-                    <th>{{Commande associé}}</th>
+
+                    <th style="min-width:200px;width:350px;">{{Indicateur}}</th>
+                    <th style="min-width:700px;width:1550px;">{{Commande associé}}
+                    </th>
                     <th></th>
                 </tr>
             </thead>
@@ -35,7 +49,7 @@ $eqLogics = eqLogic::byType($plugin->getId());
                 foreach (publiemeteo::getIndicateurList() as $indice => $description) {
                     $cmd = cmd::byId(config::byKey($indice, 'publiemeteo'));
                 ?>
-                    <tr class="publiemeteocmd" data-id="<?php echo $indice; ?>">
+                    <tr class=" publiemeteocmd" data-id="<?php echo $indice; ?>">
                         <td>
                             <?php echo $description; ?>
                         <td>
