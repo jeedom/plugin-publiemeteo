@@ -24,23 +24,22 @@ function publiemeteo_install() {
 
 function publiemeteo_update() {
 	$cron = cron::byClassAndFunction('publiemeteo', 'push');
-	if ( is_object($cron)) {
+	if (is_object($cron)) {
 		$cron->stop();
 		$cron->remove();
 	}
 }
 
 function publiemeteo_remove() {
-    $cron = cron::byClassAndFunction('publiemeteo', 'push');
+	$cron = cron::byClassAndFunction('publiemeteo', 'push');
 	if (is_object($cron)) {
 		$cron->stop();
 		$cron->remove();
 	}
- 	config::remove('api', 'publiemeteo');
- 	config::remove('wunderground_id', 'publiemeteo');
- 	config::remove('wunderground_password', 'publiemeteo');
+	config::remove('api', 'publiemeteo');
+	config::remove('wunderground_id', 'publiemeteo');
+	config::remove('wunderground_password', 'publiemeteo');
 	foreach (publiemeteo::getIndicateurList() as $indice => $description) {
 		config::remove($indice, 'publiemeteo');
 	}
 }
-?>
