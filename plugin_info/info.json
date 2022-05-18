@@ -30,5 +30,7 @@
         "ja_JP",
         "pt_PT",
         "tr"
-    ]
+    ],
+    "changelog_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/weather\/publiemeteo\/beta\/changelog",
+    "documentation_beta": "https:\/\/doc.jeedom.com\/#language#\/plugins\/weather\/publiemeteo\/beta"
 }
